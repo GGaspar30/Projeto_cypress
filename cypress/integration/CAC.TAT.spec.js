@@ -2,8 +2,8 @@
 
 describe('Central de Atendimento ao Cliente TAT', function () {
     beforeEach(() => {
-        cy.visit('./cypress-basico-v2/src/index.html')// usando repositório interno
-        //cy.visit('https://cac-tat.s3.eu-central-1.amazonaws.com/index.html')// usando link externo
+        //cy.visit('./cypress-basico-v2/src/index.html')// usando repositório interno
+        cy.visit('https://cac-tat.s3.eu-central-1.amazonaws.com/index.html')// usando link externo
     })
 
     it('verifica o título da aplicação', () => {
